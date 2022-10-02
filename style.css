@@ -1,0 +1,101 @@
+*{
+  background-color: rgb(131, 22, 22);
+  color:white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif
+  
+}
+[class*="row-"]{
+  float:none;
+  padding: 10px;
+}
+.header{
+  padding: 3px;
+  margin: 9px;
+  text-align: center;
+  font-weight: bold;
+}
+h1{
+  font-size: 60px;
+}
+.post{
+  display: block;
+  margin-block-start: -30px;
+  margin-block-end: 1px;
+  text-align: center;
+}
+.page{
+  font-family:sans-serif;
+  font-size: 1.2rem;
+  
+}
+
+#image{
+  background-image: url(1\ \(1\).jpg);
+  background-blend-mode:overlay;
+  background-size:cover;
+  padding: 10px;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.pic{
+background-color: rgba(136, 18, 18, 0);
+  overflow: visible;
+  display: block;
+  height: auto;
+  text-align: center;
+  margin:auto;
+  padding: 20px;
+  max-width: 100%;
+  
+}
+.con{
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  
+}
+.con2{
+  font-style: italic;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+ul{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+  max-width: 520px;
+  display: block;
+    list-style-type: disc;
+    margin-block-start: 3em;
+    margin-block-end: 2em;
+}
+.preview{
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer{
+  text-align: center;
+  font-style:normal;
+}
+[class*="row-"]{
+  max-width:100%;
+/* }
+@media only screen and (min-width: 600px){
+  .row-1 {width:12.5%}
+  .row-2 {width:25%}
+  .row-3 {width:37.5%}
+  .row-4 {width:50%}
+  .row-5 {width:62.5%}
+  .row-6 {width:75%}
+  .row-7 {width:87.5%}
+  .row-8 {width:100%}
+*/
+}
